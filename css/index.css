@@ -245,3 +245,6 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+img {
+  border-radius: 5px;
+}
