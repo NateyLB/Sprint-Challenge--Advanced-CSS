@@ -14,3 +14,11 @@
     background-color:@background-color;
     color:@font-color;
 }
+
+.hover(@background-color, @font-color, @text-transform){
+    &:hover{
+        background-color:@background-color;
+        color:@font-color;
+        text-transform:@text-transform;
+    }
+}
