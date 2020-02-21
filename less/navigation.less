@@ -1,4 +1,21 @@
 // Navigation code here
 nav{
-    .flexDisplay(column, center, center)
+    background: @nav-bg;
+    .flexDisplay(column, space-around, center);
+    h1{
+        font-size: 4rem;
+        color:@ebony-clay;
+    }
+
+    .links{
+        width: 40%;
+        height: 8vh;
+        .flexDisplay(row, space-around, center);
+        a{
+            text-decoration: none;
+            color:@shuttle-gray;
+            font-size: 1.5rem;
+           
+        }
+    }
 }
