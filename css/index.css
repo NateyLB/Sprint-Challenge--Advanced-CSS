@@ -161,7 +161,11 @@ p {
   margin: 0 auto;
 }
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: #F6F6F6;
+  opacity: 0.9;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
