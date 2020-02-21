@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive uses media queries at many different breakpoint to accomadate devices, resposive uses adaptive and fluid design theory to make a website that looks good across a wide array of screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you design from a mobile perspective first then scale your website up, desktop first you start with a desktop perspective first then scale down to mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes the base size of font 10px, so when we use 1.2 rem we know it is 1.2 x 10 = 12 px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is allowing us to use a different syntax using a preprocessing language, this language gives us powerfull tools such as nesting selectors, creating variables, creating mixins, and creating functions. The preprocessor compiles all of this into CSS. It is much easier to write.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting, it makes selecting easy. Importing, I had a stray space and it wouldn't import my less.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +70,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [ x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ x] Add your project manager as a reviewer on the pull-request
+- [ x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -130,6 +141,6 @@ After finishing your required elements, you can push your work further. These go
 
 * [ x] Introduce CSS animations to your site.
 
-* [ ] Create a fixed navigation and add some opacity to the background
+* [ x] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
