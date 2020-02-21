@@ -189,6 +189,11 @@ nav .links a {
   color: #5E6164;
   font-size: 1.5rem;
 }
+nav .links a:hover {
+  background-color: #F6F6F6;
+  color: #23293B;
+  text-transform: uppercase;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
